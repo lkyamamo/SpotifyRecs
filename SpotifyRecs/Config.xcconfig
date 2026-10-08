@@ -1,0 +1,7 @@
+// Shared build settings for the SpotifyRecs app target.
+// Real keys live in Secrets.xcconfig (git-ignored). Copy Secrets.example.xcconfig to get started.
+
+SPOTIFY_CLIENT_ID =
+LASTFM_API_KEY =
+
+#include? "Secrets.xcconfig"
